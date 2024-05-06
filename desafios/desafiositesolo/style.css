@@ -1,0 +1,31 @@
+@charset "UTF-BR";
+
+:root {
+    --cor0: #111426;
+    --cor1: #D9D9D9;
+    --cor2:#BF6C3B;
+    --cor3: #8C4126;
+    --cor4: #592722;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+
+header { 
+    min-height: 150px;
+    text-align: center;
+}
+header > p {
+    
+}
